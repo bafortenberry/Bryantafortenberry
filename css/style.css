@@ -88,13 +88,13 @@ p a:visited { line-height: inherit; }
 
 /* Selection Highlighted Text */
 ::selection {
-	background: #22eedd;
+	background: #2600ff;
 	color: white;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #22eedd;
+	background: #2600ff;
 	color: white;
 	text-shadow: none;
 }
@@ -110,14 +110,14 @@ b, strong { font-weight: bold; }
 .underline {
 	display: inline-block;
 	padding-bottom: 4px;
-	border-bottom: 1px solid #22eedd;
+	border-bottom: 1px solid #2600ff;
 }
 
 
 
 /* Colors */
-.font-color-primary { color: #22eedd; }
-.background-color-primary { background: #22eedd; }
+.font-color-primary { color: #2600ff; }
+.background-color-primary { background: #2600ff; }
 
 .font-color-secondary { color: #a33; }
 .font-color-black { color: black; }
@@ -281,7 +281,7 @@ b, strong { font-weight: bold; }
 			button.black:hover,
 			.button.black:hover,
 			a.button.black:hover {
-				color: #22eedd;
+				color: #2600ff;
 				background: #111;
 			}
 
@@ -332,8 +332,8 @@ b, strong { font-weight: bold; }
 		input[type=password]:focus, 
 		textarea:focus,
 		select:focus {
-			color: #22eedd;
-			border: 1px solid #22eedd;
+			color: #2600ff;
+			border: 1px solid #2600ff;
 		}
 
 
@@ -354,7 +354,7 @@ b, strong { font-weight: bold; }
 
 
 	/* Required */
-	span.required { color: #22eedd; }
+	span.required { color: #2600ff; }
 
 
 
@@ -454,9 +454,9 @@ b, strong { font-weight: bold; }
 				.nav-pages a.link-next div { padding-left: 0%; }
 			}
 
-			.nav-pages a:hover { color: #22eedd; }
+			.nav-pages a:hover { color: #2600ff; }
 
-				.nav-pages a:hover span { border-bottom-color: #22eedd; }
+				.nav-pages a:hover span { border-bottom-color: #2600ff; }
 
 			.container .nav-pages a.link-prev,
 			.container .nav-pages a.link-next { padding: 20px 0; }
@@ -491,7 +491,7 @@ b, strong { font-weight: bold; }
 	ul#nav li { position: relative; }
 
 		ul#nav li ul a {
-			color: #555;
+			color: rgb(85, 85, 85);
 			padding: 25px 0;
 			border-bottom: 1px solid #222;
 		}
@@ -564,7 +564,7 @@ b, strong { font-weight: bold; }
 		
 		ul#nav li ul a:hover,
 		ul#nav li ul a:focus {
-			color: #22eedd;
+			color: #2600ff;
 			border-bottom: 1px solid #222;
 		}
 
@@ -617,7 +617,7 @@ b, strong { font-weight: bold; }
 				border-bottom: 1px solid #f5f5f5;
 			}
 
-			#menu-mobile-wrapper ul#menu-mobile li a:hover { color: #22eedd; }
+			#menu-mobile-wrapper ul#menu-mobile li a:hover { color: #2600ff; }
 
 
 
@@ -670,19 +670,19 @@ b, strong { font-weight: bold; }
 		}
 
 			.box-recent a.permalink:hover h4 {
-				color: #22eedd; 
+				color: #2600ff; 
 			}
 
-		.box-recent a.permalink p.meta { color: #22eedd; }
+		.box-recent a.permalink p.meta { color: #2600ff; }
 
 			.box-recent a.permalink p.meta span { color: #ccc; }
 
 	.box-recent a.permalink:hover {
-		color: #22eedd;
-		border-top: 1px solid #22eedd;
+		color: #2600ff;
+		border-top: 1px solid #2600ff;
 	}
 
-		.box-recent a.permalink:hover p.meta span { color: #22eedd; }
+		.box-recent a.permalink:hover p.meta span { color: #2600ff; }
 	
 	.box-recent .item { padding: 20px 0; }
 	
@@ -785,7 +785,7 @@ b, strong { font-weight: bold; }
 		margin-bottom: 10px;
 	}
 
-		#works a.permalink:hover span.category { color: #22eedd; }
+		#works a.permalink:hover span.category { color: #2600ff; }
 
 	#works .item p.excerpt {
 		font-size: 13px;
@@ -1047,7 +1047,7 @@ b, strong { font-weight: bold; }
 	}
 
 	#shop .sidecart h2 a:hover {
-		color: #22eedd; 
+		color: #2600ff; 
 	}
 	
 	#shop .sidecart h4 {
@@ -1218,9 +1218,9 @@ b, strong { font-weight: bold; }
 		#checkout input[type=password]:focus, 
 		#checkout textarea:focus,
 		#checkout select:focus {
-			color: #22eedd;
+			color: #2600ff;
 			background: white; 
-			border: 1px solid #22eedd;
+			border: 1px solid #2600ff;
 		}
 
 
@@ -1289,7 +1289,7 @@ b, strong { font-weight: bold; }
 	}
 
 		#archive .entry a:hover h4 { 
-			color: #22eedd; 
+			color: #2600ff; 
 		}
 
 		#archive .entry a:hover p { 
@@ -1314,8 +1314,8 @@ b, strong { font-weight: bold; }
 		}
 
 			#archive .entry p.tags a:hover {
-				color: #22eedd; 
-				border-bottom: 1px solid #22eedd; 
+				color: #2600ff; 
+				border-bottom: 1px solid #2600ff; 
 			}
 
 	@media screen and (max-width: 959px) { 
@@ -1344,14 +1344,14 @@ b, strong { font-weight: bold; }
 		}
 
 		#archive .entry blockquote footer { 
-			color: #22eedd;  
+			color: #2600ff;  
 			font-size: 12px; 
 			line-height: 22px; 
 			font-style: italic; 
 			display: inline-block; 
 			margin-top: 10px; 
 			padding-top: 4px; 
-			border-top: 1px solid #22eedd; 
+			border-top: 1px solid #2600ff; 
 		}
 
 	@media screen and (max-width: 959px) { 
@@ -1382,7 +1382,7 @@ b, strong { font-weight: bold; }
 		}
 
 		section#contact #contact-success {
-			color: #22eedd;
+			color: #2600ff;
 			background: #111;
 			padding: 20px 25px;
 			margin-bottom: 30px;
@@ -1395,7 +1395,7 @@ b, strong { font-weight: bold; }
 		}
 
 			section#contact .box-contact h3 {
-				color: #22eedd;
+				color: #2600ff;
 				font-size: 14px;
 				line-height: 24px;
 				font-weight: normal;
@@ -1443,7 +1443,7 @@ b, strong { font-weight: bold; }
 
 		#footer p { margin-top: 30px; }
 
-			#footer p a { color: #22eedd; }
+			#footer p a { color: #2600ff; }
 
 		#footer ul#social li {
 			display: inline-block;
@@ -1809,7 +1809,7 @@ b, strong { font-weight: bold; }
 
 	.item-nav.flex-active span.category { 
 		color: #777; 
-		border-top: 1px solid #22eedd; 
+		border-top: 1px solid #2600ff; 
 	}
 
 	@media screen and (max-width: 860px) { 
